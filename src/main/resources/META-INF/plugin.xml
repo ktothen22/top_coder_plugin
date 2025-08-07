@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>com.topcoder.chat</id>
+    <name>TopCoder Chat Plugin</name>
+    <vendor email="support@example.com" url="https://example.com">TopCoder</vendor>
+    <description>
+        Kotlin 기반 챗봇 UI를 제공하여 vLLM 서버와 연동하는 예제 플러그인입니다.
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- 툴 윈도우 등록 -->
+        <toolWindow id="TopCoder Chat" anchor="right" factoryClass="com.topcoder.chat.ChatToolWindowFactory"/>
+    </extensions>
+</idea-plugin>

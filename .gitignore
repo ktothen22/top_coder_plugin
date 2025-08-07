@@ -1,0 +1,10 @@
+# Gradle and build output
+.gradle/
+build/
+
+# IntelliJ/IDEA files
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
